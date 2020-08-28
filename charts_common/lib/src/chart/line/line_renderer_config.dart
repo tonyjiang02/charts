@@ -77,7 +77,7 @@ class LineRendererConfig<D> extends LayoutViewConfig
       this.strokeWidthPx = 2.0,
       this.dashPattern,
       this.includeLine = true,
-      this.includePoints = false,
+      this.includePoints = true,
       this.includeArea = false,
       this.layoutPaintOrder = LayoutViewPaintOrder.line,
       this.areaOpacity = 0.1,
